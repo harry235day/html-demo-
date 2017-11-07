@@ -1,0 +1,69 @@
+ul,li{
+	list-style: none;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+.main,.hmain{
+	background-color: #000;
+	width: 100px;
+}
+.main ul ,.hmain ul{
+	background-color: #ccc;
+}
+.main a,.hmain a{
+	text-decoration: none;
+	color: #fff;
+	width: 80px;
+	padding: 5px 0px 5px 20px;
+	display: block;
+}
+.main ul a,.hmain ul a{
+	color: #000;
+	
+}
+.main ul,.hmain ul{
+	display: none;
+}
+
+.hmain{
+	float: left;
+	margin-right: 1px;
+}
+/////
+.container{
+	margin-top: 100px;
+}
+.memu ul li a{
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+.memu ul li,.btn{
+	display: inline-block;
+	padding: 10px;
+}
+.memu{
+	background-color: #666;
+}
+
+.contendw{
+	display: inline-block;
+}
+
+.content{
+	display: none;
+	position: absolute;
+	box-shadow: 3px 3px 10px #fff;
+}
+.content a {
+	display: block;
+	background-color: #ccc;
+	padding: 10px;
+	text-decoration: none;
+}
+.contendw:hover .content{
+	display: block;
+}
